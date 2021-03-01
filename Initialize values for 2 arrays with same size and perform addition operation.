@@ -1,0 +1,24 @@
+import java.io.*;
+public class Second
+{
+    public static void main(String args[])
+{
+    int a[]= new int[]{1,5,6,4,5};
+    int b[]=new int[]{3,4,6,6,3};
+    int c[]=new int[5];
+    int i;
+    for(i=0;i<5;i++)
+    {
+        c[i]=a[i]+b[i];
+    }
+    System.out.print("Sum is:");
+    for(i=0;i<5;i++)
+    {
+        System.out.print(c[i]);
+        if(i<4)
+        {
+            System.out.print(",");
+        }
+    }
+}
+}
